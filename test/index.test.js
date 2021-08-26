@@ -28,7 +28,7 @@ describe('GIVEN the accum function', () => {
       expect(accum('ABC')).toEqual('A-Bb-Ccc');
     });
 
-    test('THEN an input of "RqaEzty" should return "A-Bb-Ccc"', () => {
+    test('THEN an input of "RqaEzty" should return "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"', () => {
       expect(accum('RqaEzty')).toEqual('R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy');
     });
   });
